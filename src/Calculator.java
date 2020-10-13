@@ -22,10 +22,10 @@ public class Calculator {
     }
 
     public int square(int num1, int num2) {
-        for (int i=0; i<num2;i++) {
-            num1 = num1 * num1;
-        }
         out = num1;
+        for (int i=1; i<num2;i++) {
+            out = out * num1;
+        }
         return out;
     }
 }
