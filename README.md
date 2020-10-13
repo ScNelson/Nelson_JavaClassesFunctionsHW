@@ -1,14 +1,30 @@
-## Getting Started
+## Overview
+Several classes that demonstrate OOP practices in Java. There are 4 objects (Pet, MusicNote, Calculator, and MagicCalculator). The MagicCalculator class extends the Calculator class.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Pet
+A class with basic qualities of a pet.
+- name
+- age
+- location
+- type
 
-## Folder Structure
+## MusicNote
+A class with qualities of a MIDI music note
+- note
+- velocity
+- duration
 
-The workspace contains two folders by default, where:
+## Calculator
+A class with basic math functions
+- add
+- subtract
+- multiplication
+- division
+- square
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Magic Calculator - extends Calculator
+- squareRoot
+- sine
+- cosine
+- tan
+- factorial
